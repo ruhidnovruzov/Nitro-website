@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div className=" bg-background w-full h-[100vh] pt-14">
     <div className="w-[70%] mx-auto flex flex-wrap gap-10">
-      {brands && brands.map(({ brand, image, price, year, km, cube, unit, money }: any) => (
-        <div className="bg-white w-[30%] p-1 pb-2 rounded-[8px] flex items-center flex-col cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition-all duration-500 hover:shadow-[0_15px_20px_-10px_rgba(0,0,0,0.3)]">
+      {brands && brands.map(({id, brand, image, price, year, km, cube, unit, money }: any) => (
+        <div key={id} className="bg-white w-[30%] p-1 pb-2 rounded-[8px] flex items-center flex-col cursor-pointer shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition-all duration-500 hover:shadow-[0_15px_20px_-10px_rgba(0,0,0,0.3)]">
           <img src={image} alt=""  className="w-full h-52 rounded-[8px]" />
           <p className="text-xl font-bold">{price} <span>{money}</span></p>
           <p>{brand}</p>

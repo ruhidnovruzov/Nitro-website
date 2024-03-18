@@ -93,7 +93,7 @@ const handlePriceChange = (e: any) => {
             ödənişlidir.
           </li>
           <li>
-            Elanınızı saytın ön sıralarında görmək üçün "İrəli çək" xidmətindən
+            Elanınızı saytın ön sıralarında görmək üçün İrəli çək xidmətindən
             istifadə edin.
           </li>
         </ul>
