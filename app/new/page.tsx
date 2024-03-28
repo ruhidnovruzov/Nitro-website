@@ -75,7 +75,6 @@ const handlePriceChange = (e: any) => {
     dispatch(addNew({ brand: selectedBrand, image: file, price:  price, year: year, cube: cube, km: km, unit: unitDistance, money: unitMoney}));
     router.push("/");
   };
-  
 
   return (
     <div className=" w-[70%] mx-auto text-sm">

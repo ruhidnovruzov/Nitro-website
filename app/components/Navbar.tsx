@@ -7,7 +7,9 @@ const Navbar = () => {
     <div>
         <header className='W-full h-20 mx-auto bg-primary flex items-center'>
             <div className='w-[70%] mx-auto flex items-center justify-between text-white'>
+                <Link href='./'>
                 <h1 className='font-bold text-2xl'>NITRO.AZ</h1>
+                </Link>
                 <ul className='flex gap-5'>
                     <li>Bütün elanlar</li>
                     <li>Salonlar</li>
